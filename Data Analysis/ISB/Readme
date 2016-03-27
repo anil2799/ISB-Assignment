@@ -1,0 +1,48 @@
+												ISB SUMMER INTERNSHIP ASSIGNMENT
+																									Chaithanya Kiran,
+																									9493618848.	
+Platform: UBUNTU
+Language used: Python
+
+If you have already installed python and necessary modules then please run code as mentioned:
+
+Running Python Script on Ubuntu:
+-----------------------------------------------------------------------------------------------------------------------------------------
+	(1)Open Terminal (ctrl+alt+T)
+Go to the Directory where the files are downloaded(Assuming Downloads)
+	(2)cd Downloads/ISB_Assignment
+Run the script
+	(3)python isb_final.py
+
+As soon as the script executes, It creates "8829700_patent_dwd.html(downloaded patent number)" and "ISB_Strat_Assignement_Patent.xlsx"(excel file) as you requested in the same directory.
+
+If you haven't already installed python and the required modules on Ubuntu, Please follow the following steps:
+
+Python Installation on Ubuntu:
+------------------------------------------------------------------------------------------------------------------------------------------
+Open Terminal and enter the following commands:
+
+First, install dependencies:
+	(1)sudo apt-get install build-essential checkinstall
+	(2)sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
+
+Then download using the following command:
+	(3)cd ~/Downloads/
+	(4)wget http://python.org/ftp/python/2.7.5/Python-2.7.5.tgz
+
+Extract and go to the dirctory:
+	(5)tar -xvf Python-2.7.5.tgz
+	(6)cd Python-2.7.5
+
+Install
+	(7)./configure
+	(8)make
+	(9)sudo checkinstall
+
+
+
+To run the isb_final code you also need urllib2 and Beautiful Soup modules:
+
+	(1)urllib2 will be automatically installed with python
+To install Beautiful Soup module, Open terminal and enter following commands
+	(1)sudo apt-get install python-bs4
